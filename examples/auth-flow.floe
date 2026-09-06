@@ -1,0 +1,4 @@
+direction TB
+User -> Login
+Login -> Dashboard : success
+Login -> Error : invalid

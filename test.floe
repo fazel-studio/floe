@@ -1,0 +1,4 @@
+User -> API : request
+API -> Database : query
+API -> Cache : read
+Cache -- Database : sync

@@ -1,0 +1,4 @@
+direction LR
+User [person] "End User"
+API [service] "API Gateway"
+User -> API : request

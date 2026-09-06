@@ -1,0 +1,37 @@
+# Dependencies
+node_modules/
+modules/
+bun.lockb
+
+# Build output (kept for npm publish via `files` field, but ignored in git by default)
+dist/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Test coverage
+coverage/
+.nyc_output/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Env
+.env
+.env.local
+
+# Benchmark artifacts (generated)
+benchmarks/results.json
+benchmarks/bundle-size.json
+
+# Temp
+tmp/
+temp/
